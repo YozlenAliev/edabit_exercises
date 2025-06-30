@@ -1,6 +1,6 @@
 def calculate_damage(damage_: int, speed_: int, time_: str) -> int | str:
     result = 0
-    if damage < 0 or speed < 0:
+    if damage_ <= 0 or speed_ <= 0:
         return f'Invalid'
     else:
         if time_ == 'second':
